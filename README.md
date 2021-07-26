@@ -3,4 +3,4 @@ Final Project Tic Tac Toe Game with Reactive AI
 
 Program requires account header to run
 
-Availible under MIT License
+Availible as Open Source under MIT License
