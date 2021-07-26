@@ -1,6 +1,6 @@
 // W6 Lab 6 Tic Tac Toe
-// Matthew Dembny 7/25/21
-// CSC 121 03
+// MattGet 7/25/21
+// CSC 121
 
 #include <iostream>                                                                 //header files to include strings and windows for color, and fstream for files, and ctime and chrono for the date
 #include <string>
