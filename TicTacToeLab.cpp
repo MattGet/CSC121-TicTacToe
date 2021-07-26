@@ -55,7 +55,7 @@ string date(std::string date)
 void login() {                                                                                                  //start the login function
     Color(11);                                                                                                  //output date adn greeting (this is the first function to run at the start of the program (with outputs)
     cout << "\n" << date("");
-    cout << "\n\nMatthew Dembny Week 6 Lab\nTic Tac Toe Project";                                                 //greet user
+    cout << "\n\nMattGet Tic Tac Toe Project\nAvailable for use under MIT";                                      //greet user
     cout << "\n\nHello and Welcome to Tic Tac Toe!\n";
     string temp;
     do {
