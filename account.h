@@ -1,5 +1,5 @@
 #pragma once
-//Matthew Dembny CSC 121 7/25
+//MattGet CSC 121 7/25
 #include <iostream>                                               //header files to include strings and windows for color, and fstream for files, algorithm and cctype for the Lower function(transform)
 #include <string>
 #include <Windows.h>
