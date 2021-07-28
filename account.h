@@ -97,8 +97,15 @@ public:
 			Color(13);
 			cout << "\n\tPlease enter a username: ";																					//prompt user for a name and password
 			cin >> _user;
+			label3:
+			Color(13);
 			cout << "\n\tPlease choose a password thats at least 5 characters long: ";
 			cin >> _pass;
+			if (!(_pass.size() > 4)) {
+				Color(12);
+				cout << "\n\tYour password must have at least 5 characters!";															//if the passwrod is not at least 5 characters long, re-promt the user
+				goto label3;
+			}
 			if (crossCheck() == true) {																									//if the account already exists re-prompt them
 				Color(12);
 				cout << "\n\tThat account already exists! Try again.";
