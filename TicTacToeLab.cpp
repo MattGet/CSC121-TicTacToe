@@ -1,4 +1,4 @@
-// W6 Lab 6 Tic Tac Toe
+l// W6 Lab 6 Tic Tac Toe
 // MattGet 7/25/21
 // CSC 121
 
@@ -317,7 +317,7 @@ void end()
             else {
                 Color(14);
                 cout << string(35, '\n');
-                cout << "\n\tYou must choose \"play again\", \"history\", or \"quit\" try again";
+                cout << "\n\tYou must choose \"replay\", \"history\", or \"quit\" try again";
             }
         } while (true);
     if (end == "replay") {                                                                                                             //if the input is 1
