@@ -311,16 +311,16 @@ void end()
     string end;                                                                                                                        //define an integral end                                                                                                               //store the input
         do {
             Color(11);
-            cout << "\n\n\tWould you like to \"play again\" , veiw your game \"history\" , or \"quit\" ? ";              //prompt user to play again, veiw history, or quit
+            cout << "\n\n\tWould you like to \"replay\" , veiw your game \"history\" , or \"quit\" ? ";              //prompt user to play again, veiw history, or quit
             cin >> end;
-            if (Lower(end) == "play again" || Lower(end) == "history" || Lower(end) == "quit") break;
+            if (Lower(end) == "replay" || Lower(end) == "history" || Lower(end) == "quit") break;
             else {
                 Color(14);
                 cout << string(35, '\n');
                 cout << "\n\tYou must choose \"play again\", \"history\", or \"quit\" try again";
             }
         } while (true);
-    if (end == "play again") {                                                                                                             //if the input is 1
+    if (end == "replay") {                                                                                                             //if the input is 1
             char v[] = { '\0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };                                                       //copy of default board array
             memcpy(sq, v, 10);                                                                                                      //reset the global array by copying the backup into the global
             main();                                                                                                                 //call main function
